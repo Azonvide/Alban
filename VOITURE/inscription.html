@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+.inscrire input{
+width: 50%;
+height: 30px;
+background-color: cadetblue;
+border: 30px;
+box-shadow: 2px color(srgb red green blue);
+margin-top: 20px;
+display: grid;
+flex-direction: column;
+border-radius: 10px;
+
+
+}
+
+.logo label{
+    margin-top: 20px;
+    
+}
+
+fieldset{
+width: 50%;
+border-radius: 10px;
+}
+.connect button{
+    background-color: blue;
+}
+
+
+
+
+
+</style>
+
+
+</head> 
+<br><br><br>
+<br><br><br>
+
+<body>
+<center>
+
+    <fieldset class="inscrire">
+        <form action="inscription.php" method="POST">
+
+          
+                
+                <label for="#">NOM</label> 
+                <input type="text" name="Nom"> 
+                <br>
+            
+                <label for="#">PRENOM</label>
+                <input type="text" name="Prenom" ><br>
+
+                <label for="#">DATE</label>
+                <input type="date" name="Date" ><br>
+
+                <label for="#">NUMERO</label>
+                <input type="text" name="Numero"><br>
+
+                <label for="#">MOT DE PASSE</label>
+                <input type="text" name="Mot_de_passe">
+    
+           
+    
+            <div class="connect">
+                <button type="submit">Se connecter</button>
+             </div> <br>
+            
+        </form
+
+    </fieldset>
+
+</center>
+    
+    
+</body>
+</html>
